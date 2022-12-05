@@ -1,0 +1,12 @@
+body
+{
+    background-image: url("../projet\ WEB/background.jpg");
+   
+}
+
+h1 {
+    color: rgb(39, 58, 228);
+    font-family: "Apple Chancery", sans-serif;
+    text-align: center;
+  }
+
