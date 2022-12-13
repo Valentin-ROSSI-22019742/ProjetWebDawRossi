@@ -1,0 +1,28 @@
+body
+{
+    background-image: url("https://www.unesco.org/sites/default/files/styles/paragraph_medium_desktop/public/2022-07/addressing-conspiracy-theories-guide-for-teachers_0.webp");
+    background-size: 100%;
+    backdrop-filter: blur(5px);
+    background-image: fixed;
+    place-content: center;
+}
+
+h1 {
+    color: rgb(39, 58, 228);
+    font-family: "Apple Chancery", sans-serif;
+    text-align: center;
+  }
+
+  .centered {
+
+    display: inline;
+  }
+
+.grow 
+{ 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
+}
