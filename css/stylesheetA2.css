@@ -1,21 +1,27 @@
 body
 {
     margin: 0;
-    background-color: black;
     color: white;
     line-height: 1.5;
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url("../Illuminati.png");
+    background-size: 100%;
+    background-image: fixed;
+    place-content: center;
 }
 
 header
 {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     padding: 2rem 0;
     background-color: #530000;
     border-bottom: 4px solid crimson;
     color: white;
     text-align: center;
+    position:sticky;
+    top:0;
 }
   
 h1 , h2
@@ -24,32 +30,43 @@ h1 , h2
     line-height: 1.25;
 }
 
-p
-{
+section {
     margin-left: 1rem;
-}
-
-.aligned
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section
-{
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 99vw;
     align-items: center;
+    justify-content: space-around;
 }
 
-section h2
-{
+section h2{
     color: crimson;
     width: 100vw;
 }
-section p
-{
+section p{
     width:60vw;
+}
+.outSect{
+    margin-left: 25px;
+}
+
+img{
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px black);
+}
+
+.resized
+{
+    width: 500px;
+}
+
+footer
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 2px;
+    border-style: double;
+    border-color: white;
+    background: black;
 }
