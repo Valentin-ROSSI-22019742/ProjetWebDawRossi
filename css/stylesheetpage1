@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/addressing-conspiracy-theories-guide-for-teachers.png");
     background-size: contain;
     backdrop-filter: blur(20px);
 }
@@ -17,12 +17,20 @@ h1 {
     font-family: "Apple Chancery", sans-serif;
     text-align: center;
     border-radius: 25px;
-    background: #73AD21;
+    background: #bfc499;
     padding: 20px;
     width: 120px;
     height: auto;
   }
 
+.left {
+
+  float: right;
+  
+  padding: 0 0 20px 20px;
+  
+}
+  
 .grow { 
     transition: all .2s ease-in-out; 
     }
