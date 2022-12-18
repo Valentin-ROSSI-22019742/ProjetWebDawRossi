@@ -1,6 +1,6 @@
 body
 {
-    background-image: url("../projet\ WEB/background.jpg");
+    background-image: url("../images/background.jpg");
     background-size: contain;
     backdrop-filter: blur(20px);
 }
@@ -30,7 +30,3 @@ h1 {
 .grow:hover { 
 transform: scale(1.1); 
 }
-
-
-
-
