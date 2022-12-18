@@ -6,20 +6,20 @@ body
 }
 
 h1 {
-    color: rgb(39, 58, 228);
+    color: #7a0b0b;
     font-family: "Apple Chancery", sans-serif;
     text-align: center;
     .grow
 }
 
   h2 {
-    color: rgb(39, 58, 228);
+    color: rgb(240, 8, 8);
     font-family: "Apple Chancery", sans-serif;
     text-align: center;
     border-radius: 25px;
-    background: #bfc499;
+    background: #610703;
     padding: 20px;
-    width: 120px;
+    width: auto;
     height: auto;
   }
 
