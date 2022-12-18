@@ -4,7 +4,8 @@ body
     color: white;
     line-height: 1.5;
     font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans',
+    Arial, sans-serif;
     background-color: black;
     background-image: url("../images/backgroundAx1.jpg");
     background-size: 100%;
@@ -27,12 +28,13 @@ header
   
 h1
 {
-
     line-height: 1.25;
     text-align: center;
+    margin: 1rem;
 }
 
 section {
+    line-height: 1.25;
     margin-left: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -45,9 +47,11 @@ section h2{
     color: crimson;
     width: 100vw;
 }
+
 section p{
     width:60vw;
 }
+
 .outSect{
     margin-left: 25px;
 }
@@ -96,7 +100,33 @@ footer {
     display: block;
 }
 
-.altLink
+.linkBlue
+{
+    color: blue;
+}
+
+.linkRed
 {
     color: red;
+}
+
+.floatRight
+{
+    float: right;
+    margin-right: 25px;
+}
+
+#underline
+{
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.bigMenu
+{
+    text-align: center;
+    padding: 2rem;
+    line-height: 5rem;
 }
